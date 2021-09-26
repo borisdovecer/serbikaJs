@@ -3,25 +3,13 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const { connect } = require('mongoose');
-const passport = require('passport');
 const session = require('express-session');
 
-const indexRouter = require('./routes/index');
+const indexRouter = require('./routes/index.js');
+const teacherRouter = require("./routes/teacherRoutes.js");
+const studentRouter = require("./routes/studentRoutes.js");
 
-const config = require('./config/config')
 const app = express();
-
-// Passport Config
-require('./config/passport')(passport);
-
-// Connect to MongoDB
-connect(
-        config.database.url,
-        { useNewUrlParser: true ,useUnifiedTopology: true}
-    )
-    .then(() => console.log('MongoDB Connected'))
-    .catch(err => console.log(err));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -42,17 +30,16 @@ app.use(
     })
 );
 
-// Passport middleware
-app.use(passport.initialize());
-app.use(passport.session());
-
 // Routes
 app.use('/', indexRouter);
+app.use('/teacher', teacherRouter);
+app.use('/student', studentRouter);
 app.use('/admin', indexRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => next(createError(404)));
 
+console.log('radi...')
 // error handler
 app.use((err, req, res, next) => {
   // set locals, only providing error in development

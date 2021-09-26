@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa76da7a-0a6a-4372-ba86-8fb3137362d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/registrationController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/sessionController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/studentController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/teacherController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/registrationModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/sessionModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/studentModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/teacherModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/registrationRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/sessionRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/studentRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/teacherRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/passport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yUbsNUjBwjt9TVhg5KCos9hCIH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controllers" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Documents\GitHub\serbikaJs\controllers" />
+      <recent name="G:\Documents\GitHub\serbikaJs\routes" />
+      <recent name="G:\Documents\GitHub\serbikaJs\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Documents\GitHub\serbikaJs\routes" />
+      <recent name="G:\Documents\GitHub\serbikaJs\models" />
+      <recent name="G:\Documents\GitHub\serbikaJs\controllers" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa76da7a-0a6a-4372-ba86-8fb3137362d8" name="Default Changelist" comment="" />
+      <created>1632309322651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632309322651</updated>
+      <workItem from="1632309324344" duration="699000" />
+      <workItem from="1632311498819" duration="6729000" />
+      <workItem from="1632603850078" duration="14777000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
